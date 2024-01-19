@@ -1,0 +1,9 @@
+[submodule "submodules/noVNC"]
+	path = submodules/noVNC
+	url = https://github.com/novnc/noVNC.git
+[submodule "submodules/websockify"]
+	path = submodules/websockify
+	url = https://github.com/novnc/websockify.git
+[submodule "submodules/spice-html5"]
+	path = submodules/spice-html5
+	url = https://gitlab.freedesktop.org/spice/spice-html5.git
