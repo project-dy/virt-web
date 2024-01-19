@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title><%= title %></title>
+    <%- include('partials/header.ejs') %>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <%- include('partials/navbar.ejs') %>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <%- include(path, req) %>
+            </div>
+        </div>
+    </div>
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>
